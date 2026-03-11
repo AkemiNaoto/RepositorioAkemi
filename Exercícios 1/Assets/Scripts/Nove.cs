@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Nove : MonoBehaviour
 {
-    public int Numero;
+    [SerializeField] private int Numero;
     void Start()
     {
 

@@ -3,12 +3,14 @@ using UnityEngine;
 public class Cinco : MonoBehaviour
 {
     
-    int Resto;
+    private int ValorInicial, Divisor;
 
     void Start()
     {
-        
-        Resto = 17 % 4;
+
+        ValorInicial = 17;
+        Divisor = 4;
+        int Resto = ValorInicial % Divisor;
         Debug.Log("O que sobrou da divisão de 17 por 4 é " + Resto);
 
 

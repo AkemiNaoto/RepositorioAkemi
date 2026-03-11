@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Doze : MonoBehaviour
 {
-    public int Pontos, InimigosDerrotados, Bonus;
+    [SerializeField] private int Pontos, InimigosDerrotados, Bonus;
     void Start()
     {
         

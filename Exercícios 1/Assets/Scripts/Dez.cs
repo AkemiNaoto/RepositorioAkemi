@@ -3,7 +3,7 @@ using UnityEngine;
 public class Dez : MonoBehaviour
 {
    
-    float Salario = 1000f;
+    private float Salario = 1000f;
 
     void Start()
     {

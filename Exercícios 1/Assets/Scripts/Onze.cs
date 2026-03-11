@@ -3,7 +3,7 @@ using UnityEngine;
 public class Onze : MonoBehaviour
 {
     
-    public float VelocidadeInicial, Tempo, Aceleracao;
+    [SerializeField] private float VelocidadeInicial, Tempo, Aceleracao;
 
     void Start()
     {

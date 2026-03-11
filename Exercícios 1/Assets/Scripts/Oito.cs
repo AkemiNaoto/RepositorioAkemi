@@ -3,8 +3,8 @@ using UnityEngine;
 public class Oito : MonoBehaviour
 {
     
-    public int Vida = 100;
-    public int Dano;
+    [SerializeField] private int Vida = 100;
+    [SerializeField] private int Dano;
 
     void Start()
     {

@@ -3,7 +3,7 @@ using UnityEngine;
 public class Seis : MonoBehaviour
 {
     
-    public int Idade;
+    [SerializeField] private int Idade;
 
     void Start()
     {
