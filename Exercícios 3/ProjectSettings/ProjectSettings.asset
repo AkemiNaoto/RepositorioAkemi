@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 09572f4cdf027d94398d996df6ed76d9
+  productGUID: ffacf3dd7ecfee341b35ecd8a60d2617
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: "Exerc\xEDcio 2"
+  productName: "Exerc\xEDcios 3"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -731,14 +731,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: "Exerc\xEDcio 2"
+  metroPackageName: "Exerc\xEDcios 3"
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: "Exerc\xEDcio 2"
+  metroApplicationDescription: "Exerc\xEDcios 3"
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -809,10 +809,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: c5c51eb2-f1c2-4b36-bebb-f019fe488986
+  cloudProjectId: a34434eb-0281-4a5a-b357-eadfc67aa24b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: "Exerc\xEDcio 2"
+  projectName: "Exerc\xEDcios 3"
   organizationId: rm90443
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
