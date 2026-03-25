@@ -22,7 +22,7 @@ public class Controle : MonoBehaviour
         A = 7;
         B = 876;
         Soma = A + B;
-        print("O valor de A é " + A + " e o valor de B é " + B + ", a soma dos dois dá " + Soma);
+        print("O valor de A ï¿½ " + A + " e o valor de B ï¿½ " + B + ", a soma dos dois dï¿½ " + Soma);
 
     }
 
@@ -32,7 +32,7 @@ public class Controle : MonoBehaviour
         Vida = 100;
         Dano = 25;
         int VidaFinal = Vida - Dano;
-        print("O player tem 100 de vida, porém ao sofrer um ataque perdeu 25 de vida resultando em " + VidaFinal + " de vida");
+        print("O player tem 100 de vida, porï¿½m ao sofrer um ataque perdeu 25 de vida resultando em " + VidaFinal + " de vida");
 
     }
 
@@ -41,7 +41,7 @@ public class Controle : MonoBehaviour
 
         Pontos = 10; Multiplicador = 3;
         int PontosFinal = Pontos * Multiplicador;
-        print("Você tem 10 pontos, porém ao pegar o item seus pontos triplicaram resultando em " + PontosFinal + " pontos");
+        print("Vocï¿½ tem 10 pontos, porï¿½m ao pegar o item seus pontos triplicaram resultando em " + PontosFinal + " pontos");
 
     }
 
@@ -51,7 +51,7 @@ public class Controle : MonoBehaviour
         Moedas = 50;
         Divisor = 5;
         int MoedasFinal = Moedas / Divisor;
-        print("Você derrotou um monstro e ele deu 50 moedas, porém você decidiu dividir com seus 4 amigos e cada um de vocês ficou com " + Moedas + " moedas");
+        print("Vocï¿½ derrotou um monstro e ele deu 50 moedas, porï¿½m vocï¿½ decidiu dividir com seus 4 amigos e cada um de vocï¿½s ficou com " + Moedas + " moedas");
 
     }
 
@@ -61,7 +61,7 @@ public class Controle : MonoBehaviour
         ValorInicial = 17;
         Divisor = 4;
         int Resto = ValorInicial % Divisor;
-        print("O que sobrou da divisão de 17 por 4 é " + Resto);
+        print("O que sobrou da divisï¿½o de 17 por 4 ï¿½ " + Resto);
 
 
 
@@ -70,7 +70,7 @@ public class Controle : MonoBehaviour
     public void Seis()
     {
 
-        print("A idade é " + Idade + " anos");
+        print("A idade ï¿½ " + Idade + " anos");
 
     }
 
@@ -79,7 +79,7 @@ public class Controle : MonoBehaviour
 
         A = 657; B = 450;
         int Soma = A + B;
-        print("O valor de A é " + A + " e o valor de B é " + B + " e ao somar os dois o valor é " + Soma);
+        print("O valor de A ï¿½ " + A + " e o valor de B ï¿½ " + B + " e ao somar os dois o valor ï¿½ " + Soma);
 
     }
 
@@ -91,14 +91,14 @@ public class Controle : MonoBehaviour
         if (Vida == 100)
         {
 
-            print("Sua vida continua cheia, coloque algum valor de dano na varíavel Dano e dê play novamente");
+            print("Sua vida continua cheia, coloque algum valor de dano na varï¿½avel Dano e dï¿½ play novamente");
 
         }
 
         else
         {
 
-            print("O player foi atingido por um ataque e sofreu " + Dano + " de dano e agora está com " + Vida + " de vida");
+            print("O player foi atingido por um ataque e sofreu " + Dano + " de dano e agora estï¿½ com " + Vida + " de vida");
 
         }
 
@@ -110,18 +110,18 @@ public class Controle : MonoBehaviour
         if (Numero == 0)
         {
 
-            print("Qualquer operação de multiplicação ou divisão com 0 o resultado sempre será 0");
+            print("Qualquer operaï¿½ï¿½o de multiplicaï¿½ï¿½o ou divisï¿½o com 0 o resultado sempre serï¿½ 0");
 
         }
 
         else
         {
 
-            print("Você escolheu o número " + Numero);
+            print("Vocï¿½ escolheu o nï¿½mero " + Numero);
             Numero = Numero * 2;
-            print("O dobro dele é " + Numero);
+            print("O dobro dele ï¿½ " + Numero);
             Numero = Numero / 4;
-            print("E a metade dele é " + Numero);
+            print("E a metade dele ï¿½ " + Numero);
 
         }
 
@@ -131,7 +131,7 @@ public class Controle : MonoBehaviour
     {
 
         Salario = Salario + Salario * 0.10f;
-        print("O seu salário era R$1000, felizmente você recebeu um aumento de 10% e agora seu salário é R$" + Salario);
+        print("O seu salï¿½rio era R$1000, felizmente vocï¿½ recebeu um aumento de 10% e agora seu salï¿½rio ï¿½ R$" + Salario);
 
     }
 
@@ -139,7 +139,7 @@ public class Controle : MonoBehaviour
     {
 
         float VelocidadeFinal = VelocidadeInicial + Aceleracao * Tempo;
-        print("O canhão te jogou a " + VelocidadeInicial + "m/s e com uma acelaração de " + Aceleracao + "m/s² durante " + Tempo + " segundos, devido a isso você chegou a velocidade de " + VelocidadeFinal + "m/s");
+        print("O canhï¿½o te jogou a " + VelocidadeInicial + "m/s e com uma acelaraï¿½ï¿½o de " + Aceleracao + "m/sï¿½ durante " + Tempo + " segundos, devido a isso vocï¿½ chegou a velocidade de " + VelocidadeFinal + "m/s");
 
     }
 
@@ -147,7 +147,7 @@ public class Controle : MonoBehaviour
     {
 
         int PontuacaoFinal = Pontos * InimigosDerrotados + Bonus;
-        print("Você derrotou " + InimigosDerrotados + " inimigos, e conquistou um bônus de " + Bonus + " pontos, devido a isso você ficou com " + PontuacaoFinal + " pontos");
+        print("Vocï¿½ derrotou " + InimigosDerrotados + " inimigos, e conquistou um bï¿½nus de " + Bonus + " pontos, devido a isso vocï¿½ ficou com " + PontuacaoFinal + " pontos");
 
     }
 
